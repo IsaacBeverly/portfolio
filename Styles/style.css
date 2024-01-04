@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', arial, 'sans-serif';
+    background-image: url("Images/pastel-background.jpeg");
+    background-size: cover;
+    background-color: burlywood;
+}
+.heading {
+  text-align: left;
+  font-size: 20px;
+}
+
+.heading h1 {
+    position: relative;
+    bottom: 500px;
+    padding: 30px;
+    color: antiquewhite;
+    z-index: 3;
+}
+
+.banner-quote {
+    position: relative;
+    bottom: 500px;
+    color: antiquewhite;
+    z-index: 3;
+}
+.heading-banner {
+    background-image: cover;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 80px;
+}
+
+.nav {
+    text-align: right;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    padding: 20px;
+}
+.nav a {
+    text-align: center;
+    margin:20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: red;
+    color: black;
+}
